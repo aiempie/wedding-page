@@ -35,5 +35,3 @@ async function fetchData() {
 }
 
 fetchData();
-
-let wishBox = document.querySelector(".wish-box");
