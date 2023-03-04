@@ -35,3 +35,14 @@ async function fetchData() {
 }
 
 fetchData();
+
+function copyStkChuRe() {
+  var copyText = "0800188889999"; // Đặt nội dung cần copy vào đây
+  navigator.clipboard.writeText(copyText); // Ghi nội dung vào clipboard
+  alert("Đã copy số tài khoản chú rể!"); // Thông báo khi copy thành công
+}
+function copyStkCoDau() {
+  var copyText = "1550106795006"; // Đặt nội dung cần copy vào đây
+  navigator.clipboard.writeText(copyText); // Ghi nội dung vào clipboard
+  alert("Đã copy số tài khoản cô dâu!"); // Thông báo khi copy thành công
+}
